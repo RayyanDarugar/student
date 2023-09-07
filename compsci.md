@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: Computer Science Lab Notebook
+title: Computer Science Lab Notebookk
 units: "1,2"
 course: compsci
 ---
