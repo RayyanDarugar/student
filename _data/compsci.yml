@@ -9,3 +9,8 @@ Unit2:
   description: Learn (JavaScript|Python|Java).  Start Agile development process.
   start: 4
   end: 7
+Unit3:
+  title: Passion Project Dev
+  description: Use learned knowledge and in class student presentations to develop an app of your own
+  start: 8
+  end: 12
