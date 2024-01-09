@@ -10,6 +10,7 @@ courses: { compsci: {week: 13} }
 
 # <span style="color:cadetblue">Homework</span>
 
+
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
 
 - The key differences between the three liscences are:
