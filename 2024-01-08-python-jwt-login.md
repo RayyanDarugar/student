@@ -26,7 +26,7 @@ The form triggers the login_user function defined in the JavaScript below when t
 
 <p class="descriptiontext" >Need to become a user?</p>
 
-<a href="{{site.baseurl}}/signup" target="_blank">
+<a href="{{site.baseurl}}/signup">
     <button class="signup-button">Sign Up!</button>
 </a>
 
@@ -70,11 +70,13 @@ The script defines a function when the page loads. This function is triggered wh
             if (!response.ok) {
                 const errorMsg = 'Login error: ' + response.status;
                 console.log(errorMsg);
-                alert("Incorrect username or password");
+                // alert("Incorrect username or password");
+                window.location.replace("{{site.baseurl}}/403_Error?message=Incorrect+Username+or+Password");
                 return;
             }
             // Success!!!
             // Redirect to the database page
+            alert("Login Successful!")
             window.location.href = "{{site.baseurl}}/data/database";
         })
         // catch fetch errors (ie ACCESS to server blocked)

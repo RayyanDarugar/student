@@ -49,7 +49,7 @@ The script defines a function when the page loads. This function is triggered wh
 
 function signup_user() {
     // Set Create User endpoint
-    const url = uri + '/api/users/signup';
+    const url = uri + '/api/users/';
 
     // Set body of request to include signup data from DOM
     const body = {
