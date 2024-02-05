@@ -24,7 +24,11 @@ permalink: /data/database
 </table>
 
 <a href="{{site.baseurl}}/delete">
-    <button class="signup-button">Delete a User (Only for Admins!)</button>
+    <button class="delete-button">Delete a User (Only for Admins!)</button>
+</a>
+
+<a href="{{site.baseurl}}/update">
+    <button class="update-button">Update a User (Only for Admins!)</button>
 </a>
 
 <!-- 

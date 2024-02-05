@@ -124,3 +124,15 @@
   background-color: $niceblue;
   color: white
  }
+
+ .delete-button{
+  @extend .button;
+  background-color: red;
+  color: white
+ }
+
+ .update-button{
+  @extend .button;
+  background-color: green;
+  color: white
+ }

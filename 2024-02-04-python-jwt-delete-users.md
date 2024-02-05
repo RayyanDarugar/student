@@ -10,12 +10,12 @@ The form triggers the login_user function defined in the JavaScript below when t
 <p class="title"> Delete a User </p>
 
 <form action="javascript:delete_user()">
-    <p class="inputusername"><label>
+    <h2><label>
         User ID:
         <input type="text" name="duid" id="duid" required>
-    </label></p>
+    </label></h2>
     <p>
-        <button class="signup-button">Delete</button>
+        <button class="delete-button">Delete</button>
     </p>
 
 </form>
