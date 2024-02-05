@@ -1,7 +1,4 @@
 ---
-title: JWT Signup (python/flask)
-layout: post
-hide: true
 permalink: /signup
 ---
 
@@ -10,6 +7,8 @@ A simple HTML login form with a Login action when button is pressed.
 
 The form triggers the login_user function defined in the JavaScript below when the Login button is pressed.
 -->
+
+<p class="title"> Sign Up! </p>
 
 <p>Create a New User! Input your Name, User ID, Password, Date of Birth, and Favorite Color</p>
 
@@ -35,7 +34,7 @@ The form triggers the login_user function defined in the JavaScript below when t
         <input type="text" name="color" id="color" required>
     </label></p>
     <p>
-        <button>Login</button>
+        <button class="signup-button">Sign Up</button>
     </p>
 
 <!-- 
@@ -80,7 +79,7 @@ function signup_user() {
 
             // Success - user created
             alert("User created successfully!");
-            // Optionally, you can redirect to a login page or handle it as needed
+            window.location.href = "{{site.baseurl}}/login";
         })
         .catch(err => {
             console.error(err);

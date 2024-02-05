@@ -23,6 +23,10 @@ permalink: /data/database
   </tbody>
 </table>
 
+<a href="{{site.baseurl}}/delete">
+    <button class="signup-button">Delete a User (Only for Admins!)</button>
+</a>
+
 <!-- 
 Below JavaScript code fetches user data from an API and displays it in a table. It uses the Fetch API to make a GET request to the '/api/users/' endpoint.   Refer to config.js to see additional options. 
 

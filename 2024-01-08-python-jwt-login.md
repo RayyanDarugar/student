@@ -10,11 +10,11 @@ The form triggers the login_user function defined in the JavaScript below when t
 <p class="title"> Login Here! </p>
 
 <form action="javascript:login_user()">
-    <p class="inputusername"><label>
+    <p><label>
         User ID:
         <input type="text" name="uid" id="uid" required>
     </label></p>
-    <p class="inputpassword"><label>
+    <p><label>
         Password:
         <input type="password" name="password" id="password" required>
     </label></p>
@@ -24,11 +24,12 @@ The form triggers the login_user function defined in the JavaScript below when t
 
 </form>
 
-<p class="descriptiontext" >Need to become a user?</p>
+<p>Need to become a user?</p>
 
 <a href="{{site.baseurl}}/signup">
     <button class="signup-button">Sign Up!</button>
 </a>
+
 
 <!-- <form action="javascript:signup_user()">
     <p>
