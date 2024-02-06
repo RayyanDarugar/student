@@ -24,6 +24,10 @@ The form triggers the login_user function defined in the JavaScript below when t
         Name:
         <input type="text" name="name" id="name" required>
     </label></h2>
+    <h2><label>
+        Color:
+        <input type="text" name="color" id="color" required>
+    </label></h2>
         <h2><label>
         Role:
         <input type="text" name="role" id="role" required>
@@ -49,6 +53,7 @@ The form triggers the login_user function defined in the JavaScript below when t
         uid: document.getElementById("uid").value,
         password: document.getElementById("password").value,
         name: document.getElementById("name").value,
+        color: document.getElementById("color").value,
         role: document.getElementById("role").value,
       };
       const AuthOptions = {
