@@ -46,11 +46,13 @@ The form triggers the login_user function defined in the JavaScript below when t
         .then(response => {
           // check for response errors and display
           if (response.status !== 200) {
+                alert("Error Deleting User");
                 window.location.replace("{{site.baseurl}}/403_Error?message=Insufficient+Permissions");
                 return;
           }
           // valid response will contain JSON data
           response.json().then(data => {
+            alert("User deleted successfully!");
             window.location.href = "{{site.baseurl}}/data/database";
           })
       })

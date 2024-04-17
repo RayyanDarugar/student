@@ -57,7 +57,7 @@ function signup_user() {
         password: document.getElementById("password").value,
         dob: document.getElementById("dob").value,
         color: document.getElementById("color").value,
-    };
+    }; 
 
     // Change options according to Authentication requirements
     const createOptions = {

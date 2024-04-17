@@ -77,7 +77,7 @@ The form triggers the login_user function defined in the JavaScript below when t
             // valid response will contain JSON data
             response.json().then(data => {
               // insert whatever code you want here
-            alert("User created successfully!");
+            alert("User updated successfully!");
             window.location.href = "{{site.baseurl}}/login";
             })
         })

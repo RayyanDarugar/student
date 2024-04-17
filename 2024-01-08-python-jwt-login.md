@@ -72,7 +72,7 @@ The script defines a function when the page loads. This function is triggered wh
                 const errorMsg = 'Login error: ' + response.status;
                 console.log(errorMsg);
                 // alert("Incorrect username or password");
-                window.location.replace("{{site.baseurl}}/403_Error?message=Incorrect+Username+or+Password");
+                window.location.replace("{{site.baseurl}}/401_Error?message=Incorrect+Username+or+Password");
                 return;
             }
             // Success!!!
